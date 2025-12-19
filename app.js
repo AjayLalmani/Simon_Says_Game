@@ -31,7 +31,7 @@ function gameFlash(btn){
     }, 250);  
 }
 
-document.addEventListener("keydown", function(){
+document.addEventListener("mousedown", function(){
     if(started == false){
         started = true;
         levelUp();
